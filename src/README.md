@@ -6,15 +6,15 @@ Folders:
 
 2. WiFi_Sensor_Consumer: Contains the Gateway device software was run on ESP8266.  To compile you will need a DO_NOT_CHECK_IN.h see below
 
-3. RSSI_Sensor_System: Contains two subfolders:
-    ESP8266WiFi_Client_UDP: 5 ESP8266 devices were running this software
-    ESP8266WiFi_Server_UDP: 1 ESP8266 device was running this software.  to compile you will need a DO_NOT_CHECK_IN.h
+3. RSSI_Sensor_System: Contains two subfolders:<br>
+    ESP8266WiFi_Client_UDP: 5 ESP8266 devices were running this software<br>
+    ESP8266WiFi_Server_UDP: 1 ESP8266 device was running this software.  To compile you will need a DO_NOT_CHECK_IN.h<br>
 
-4. libraries: Contains two subfolders:
-    ECE508_UDP_message: Needs to be placed in the Arduino library directory(I used symlink)
-    ECE508Libs: Needs to be placed in the Arduino library directory(I used symlink)
+4. libraries: Contains two subfolders:<br>
+    ECE508_UDP_message: Needs to be placed in the Arduino library directory(I used symlink)<br>
+    ECE508Libs: Needs to be placed in the Arduino library directory(I used symlink)<br>
 
-5. ml: Contains the jupyter notebook file & data used to generate the gesture_mdel.tflite & model.h.  The jupyter notebook file needs to be opened in https://colab.research.google.com/ and the data uploaded.
+5. ml: Contains the jupyter notebook file & data used to generate the gesture_mdel.tflite & model.h.  The jupyter notebook file needs to be opened in https://colab.research.google.com/ and the data uploaded.<br>
 
 Note: The checked in gesture_mdel.tflite & model.h are specific to the 5 ESP8266 devices & there specific locations of the test configuration.  To reproduce you will need to setup your own test configuration and gather your own training data.  
 
