@@ -32,6 +32,6 @@ To Run: (section the area you wnat to detect into 4 zones)
 
 
 DO_NOT_CHECK_IN.h
-#define SECRET_SSID "Something"
-#define SECRET_PASS "Somethingspassphrase"
-#define TIMEOFFSET 5
+#define SECRET_SSID "Something"<br>
+#define SECRET_PASS "Somethingspassphrase"<br>
+#define TIMEOFFSET 5<br>
