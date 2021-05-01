@@ -31,7 +31,7 @@ To Run: (section the area you want to detect into 4 zones)
 10) start the system up again and start detecting
 
 
-DO_NOT_CHECK_IN.h
+DO_NOT_CHECK_IN.h<br>
 #define SECRET_SSID "Something"<br>
 #define SECRET_PASS "Somethingspassphrase"<br>
 #define TIMEOFFSET 5<br>
