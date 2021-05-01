@@ -2,19 +2,19 @@ This is all of the code and data need to run the Group 2 Spring 2021 final proje
 
 Folders:
 
-BLE_Process_and_sensor: Contains the machine learning device software was run on Nano 33 BLE Sense
+1. BLE_Process_and_sensor: Contains the machine learning device software was run on Nano 33 BLE Sense
 
-WiFi_Sensor_Consumer: Contains the Gateway device software was run on ESP8266.  To compile you will need a DO_NOT_CHECK_IN.h see below
+2. WiFi_Sensor_Consumer: Contains the Gateway device software was run on ESP8266.  To compile you will need a DO_NOT_CHECK_IN.h see below
 
-RSSI_Sensor_System: Contains two subfolders:
+3. RSSI_Sensor_System: Contains two subfolders:
     ESP8266WiFi_Client_UDP: 5 ESP8266 devices were running this software
     ESP8266WiFi_Server_UDP: 1 ESP8266 device was running this software.  to compile you will need a DO_NOT_CHECK_IN.h
 
-libraries: Contains two subfolders:
+4. libraries: Contains two subfolders:
     ECE508_UDP_message: Needs to be placed in the Arduino library directory(I used symlink)
     ECE508Libs: Needs to be placed in the Arduino library directory(I used symlink)
 
-ml: Contains the jupyter notebook file & data used to generate the gesture_mdel.tflite & model.h.  The jupyter notebook file needs to be opened in https://colab.research.google.com/ and the data uploaded.
+5. ml: Contains the jupyter notebook file & data used to generate the gesture_mdel.tflite & model.h.  The jupyter notebook file needs to be opened in https://colab.research.google.com/ and the data uploaded.
 
 Note: The checked in gesture_mdel.tflite & model.h are specific to the 5 ESP8266 devices & there specific locations of the test configuration.  To reproduce you will need to setup your own test configuration and gather your own training data.  
 
