@@ -18,7 +18,7 @@ Folders:
 
 Note: The checked in gesture_mdel.tflite & model.h are specific to the 5 ESP8266 devices & there specific locations of the test configuration.  To reproduce you will need to setup your own test configuration and gather your own training data.  
 
-To Run: (section the area you wnat to detect into 4 zones)
+To Run: (section the area you want to detect into 4 zones)
 1) configure and install your 5 ESP8266WiFi_Client_UDP devices
 2) configure and install your 1 ESP8266WiFI_Server_UDP devices
 3) Turn out all RSSI_Sensor_System devices order does not matter
