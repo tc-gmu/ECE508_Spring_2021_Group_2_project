@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "e7f2e275-e973-42c7-ae71-1bd806db6143",
+		"name": "RSSI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Post RSSI",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"source\":\"postman\",\r\n    \"data\":[1, 2, 3]\r\n}"
+				},
+				"url": {
+					"raw": "{{rssi_endpoint}}/rssi/data",
+					"host": [
+						"{{rssi_endpoint}}"
+					],
+					"path": [
+						"rssi",
+						"data"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Query RSSI Data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{rssi_endpoint}}/rssi/source/postman",
+					"host": [
+						"{{rssi_endpoint}}"
+					],
+					"path": [
+						"rssi",
+						"source",
+						"postman"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

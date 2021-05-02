@@ -1,0 +1,15 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "description": "A fresh new Architect project!",
+  "scripts": {
+    "start": "npx sandbox"
+  },
+  "devDependencies": {
+    "@architect/architect": "^8.5.3"
+  },
+  "dependencies": {
+    "request-ip": "^2.1.3",
+    "uuid": "^8.3.2"
+  }
+}
