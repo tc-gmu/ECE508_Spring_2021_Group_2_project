@@ -1,8 +1,9 @@
 This is all of the code and data need to run the Group 2 Spring 2021 final project demonstration system.  
 
 Folders:
+1. AWS_Cloud_Server: Contains the files needed to setup training data repository
 
-1. BLE_Process_and_sensor: Contains the machine learning device software was run on Nano 33 BLE Sense
+3. BLE_Process_and_sensor: Contains the machine learning device software was run on Nano 33 BLE Sense
 
 2. WiFi_Sensor_Consumer: Contains the Gateway device software was run on ESP8266.  To compile you will need a DO_NOT_CHECK_IN.h see below
 
